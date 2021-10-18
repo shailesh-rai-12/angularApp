@@ -8,12 +8,14 @@ import { RecipeService } from '../../recipe.service';
   styleUrls: ['./recipe-item.component.css']
 })
 export class RecipeItemComponent implements OnInit {
-  //@Input('recipe-item') recipe!:Recipe;
+  @Input('recipe-item') recipe!:Recipe;
+  @Input() index!:number;
   // @Output() recipeSelected=new EventEmitter<void>();
-
+  //recipe!:Recipe;
   constructor(private recipeService:RecipeService) { }
 
   ngOnInit(): void {
+    
   }
 
   // onItemClicked()
