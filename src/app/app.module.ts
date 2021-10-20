@@ -42,7 +42,7 @@ import { RecipeEditComponent } from './recipes/recipe-edit/recipe-edit.component
     BrowserModule,
     FormsModule,
     CommonModule,
-    AppRouteModule
+    AppRouteModule,
   ],
   providers: [ShoppingListService],
   bootstrap: [AppComponent]
