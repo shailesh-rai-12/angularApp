@@ -26,7 +26,7 @@ private subscription!:Subscription;
   }
 
   onEdit(id:number){
-
+        this.slService.startedEditing.next(id);
   }
   ngOnDestroy(){
     this.subscription.unsubscribe();
