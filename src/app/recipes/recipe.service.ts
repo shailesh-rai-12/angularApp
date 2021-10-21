@@ -10,6 +10,7 @@ import { Recipe } from './recipe.model';
 export class RecipeService {
   // recipeSelected=new EventEmitter<Recipe>();
   // recipeSelected=new Subject<Recipe>();
+  recipesChanged = new Subject<Recipe[]>();
   
   recipes:Recipe[]=[
     new Recipe("Butter Chicken",
@@ -34,5 +35,19 @@ export class RecipeService {
 
   getRecipe(id:number){
     return this.recipes[id];
+  }
+  addRecipe(recipe:Recipe){
+    this.recipes.push(recipe);
+    this.recipesChanged.next(this.recipes.slice());
+  }
+
+  updateRecipe(id:number,recipe:Recipe){
+    this.recipes[id]=recipe;
+    this.recipesChanged.next(this.recipes.slice());
+  }
+
+  deleteRecipe(id:number){
+    this.recipes.splice(id,1);
+    this.recipesChanged.next(this.recipes.slice());
   }
 }

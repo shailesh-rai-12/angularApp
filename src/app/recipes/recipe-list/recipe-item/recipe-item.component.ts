@@ -9,7 +9,7 @@ import { RecipeService } from '../../recipe.service';
 })
 export class RecipeItemComponent implements OnInit {
   @Input('recipe-item') recipe!:Recipe;
-  @Input() index!:number;
+  @Input('index') index!:number;
   // @Output() recipeSelected=new EventEmitter<void>();
   //recipe!:Recipe;
   constructor(private recipeService:RecipeService) { }
