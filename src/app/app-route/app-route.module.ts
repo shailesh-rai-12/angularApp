@@ -8,6 +8,7 @@ import { RecipeStartComponent } from '../recipes/recipe-start/recipe-start.compo
 import { RecipeEditComponent } from '../recipes/recipe-edit/recipe-edit.component';
 import { ShoppingListComponent } from '../shopping-list/shopping-list.component';
 import { RecipeResolverService } from '../recipes/recipe-resolver.service';
+import { AuthComponent } from '../auth/auth.component';
 
 const appRoutes:Routes=[
   {path:'',redirectTo:'recipes',pathMatch:'full'},
@@ -19,6 +20,7 @@ const appRoutes:Routes=[
       {path:':id/edit',component:RecipeEditComponent,resolve:[RecipeResolverService]}
     ]},
   {path:'shopping-list',component:ShoppingListComponent},
+  {path:'auth',component:AuthComponent}
 
 
 ]
