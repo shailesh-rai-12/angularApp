@@ -1,0 +1,44 @@
+[debug] [2021-11-01T07:16:53.758Z] ----------------------------------------------------------------------
+[debug] [2021-11-01T07:16:53.761Z] Command:       C:\Program Files\nodeJs\node.exe C:\Program Files\nodeJs\node_modules\firebase-tools\lib\bin\firebase.js login
+[debug] [2021-11-01T07:16:53.761Z] CLI Version:   9.21.0
+[debug] [2021-11-01T07:16:53.761Z] Platform:      win32
+[debug] [2021-11-01T07:16:53.761Z] Node Version:  v14.17.4
+[debug] [2021-11-01T07:16:53.762Z] Time:          Mon Nov 01 2021 12:46:53 GMT+0530 (India Standard Time)
+[debug] [2021-11-01T07:16:53.762Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-11-01T07:16:53.765Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[info] i  Firebase optionally collects CLI usage and error reporting information to help improve our products. Data is collected in accordance with Google's privacy policy (https://policies.google.com/privacy) and is not used to identify you.
+ 
+[debug] [2021-11-01T07:17:57.832Z] ----------------------------------------------------------------------
+[debug] [2021-11-01T07:17:57.834Z] Command:       C:\Program Files\nodeJs\node.exe C:\Program Files\nodeJs\node_modules\firebase-tools\lib\bin\firebase.js login
+[debug] [2021-11-01T07:17:57.834Z] CLI Version:   9.21.0
+[debug] [2021-11-01T07:17:57.835Z] Platform:      win32
+[debug] [2021-11-01T07:17:57.835Z] Node Version:  v14.17.4
+[debug] [2021-11-01T07:17:57.836Z] Time:          Mon Nov 01 2021 12:47:57 GMT+0530 (India Standard Time)
+[debug] [2021-11-01T07:17:57.836Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-11-01T07:17:57.838Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[info] i  Firebase optionally collects CLI usage and error reporting information to help improve our products. Data is collected in accordance with Google's privacy policy (https://policies.google.com/privacy) and is not used to identify you.
+ 
+[debug] [2021-11-01T07:21:07.197Z] ----------------------------------------------------------------------
+[debug] [2021-11-01T07:21:07.199Z] Command:       C:\Program Files\nodeJs\node.exe C:\Program Files\nodeJs\node_modules\firebase-tools\lib\bin\firebase.js login --no-localhost
+[debug] [2021-11-01T07:21:07.199Z] CLI Version:   9.21.0
+[debug] [2021-11-01T07:21:07.199Z] Platform:      win32
+[debug] [2021-11-01T07:21:07.199Z] Node Version:  v14.17.4
+[debug] [2021-11-01T07:21:07.200Z] Time:          Mon Nov 01 2021 12:51:07 GMT+0530 (India Standard Time)
+[debug] [2021-11-01T07:21:07.200Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-11-01T07:21:07.202Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[info] i  Firebase optionally collects CLI usage and error reporting information to help improve our products. Data is collected in accordance with Google's privacy policy (https://policies.google.com/privacy) and is not used to identify you.
+ 
+[debug] [2021-11-01T07:21:44.463Z] ----------------------------------------------------------------------
+[debug] [2021-11-01T07:21:44.466Z] Command:       C:\Program Files\nodeJs\node.exe C:\Program Files\nodeJs\node_modules\firebase-tools\lib\bin\firebase.js login --interactive
+[debug] [2021-11-01T07:21:44.467Z] CLI Version:   9.21.0
+[debug] [2021-11-01T07:21:44.467Z] Platform:      win32
+[debug] [2021-11-01T07:21:44.467Z] Node Version:  v14.17.4
+[debug] [2021-11-01T07:21:44.468Z] Time:          Mon Nov 01 2021 12:51:44 GMT+0530 (India Standard Time)
+[debug] [2021-11-01T07:21:44.468Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-11-01T07:21:44.471Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[info] i  Firebase optionally collects CLI usage and error reporting information to help improve our products. Data is collected in accordance with Google's privacy policy (https://policies.google.com/privacy) and is not used to identify you.
+ 
